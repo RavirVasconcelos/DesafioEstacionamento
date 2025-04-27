@@ -45,6 +45,7 @@ namespace DesafioFundamentos.Application
                         Veiculo veiculo = new Veiculo(placa, (TipoVeiculo)tipoVeiculo);
 
                         estacionamento.CadastrarVeiculo(veiculo);
+
                         Console.WriteLine("Veículo cadastrado com sucesso!");
                         Console.WriteLine();
 
