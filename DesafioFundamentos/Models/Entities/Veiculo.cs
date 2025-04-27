@@ -2,7 +2,7 @@
 
 namespace DesafioFundamentos.Models.Entities
 {
-    internal class Veiculo
+    class Veiculo
     {
         public string Placa { get; set; }
         public TipoVeiculo Tipo { get; set; }
